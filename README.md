@@ -106,46 +106,6 @@ Logging: Custom Logger
 
 Containerization: Docker
 
-📁 Project Structure
-sarkarflow/
-│
-├── api/
-│   ├── complaint.controller.js
-│   └── routes.js
-│
-├── events/
-│   └── complaint.events.js
-│
-├── workflows/
-│   ├── complaint-routing.workflow.js
-│   ├── sla-timer.workflow.js
-│   ├── escalation.workflow.js
-│   └── audit-log.workflow.js
-│
-├── services/
-│   ├── department-mapper.service.js
-│   ├── sla-policy.service.js
-│   └── audit.service.js
-│
-├── policies/
-│   ├── department.policy.json
-│   └── sla.policy.json
-│
-├── logs/
-│   ├── workflow.log
-│   ├── escalation.log
-│   ├── audit.log
-│   └── error.log
-│
-├── config/
-│   ├── logger.config.js
-│   └── app.config.js
-│
-├── Dockerfile
-├── motia.config.js
-├── package.json
-├── README.md
-└── .env
 
 🔐 Authentication
 
