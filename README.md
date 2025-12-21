@@ -1,10 +1,10 @@
-🚀 SarkarFlow
+<h2>🚀 SarkarFlow</h2>h2>
 
 Automated Government Service Request Routing Backend
 
 An event-driven backend system built using Motia to automate citizen service request routing, SLA tracking, escalation, and audit logging for government services in India.
 
-📌 Problem Statement
+<h3>📌 Problem Statement</h3>
 
 In India, government service requests such as electricity issues, water complaints, or municipal problems are often handled manually.
 This leads to:
@@ -19,7 +19,7 @@ Poor accountability
 
 SarkarFlow solves this by introducing an automated, event-driven backend system that routes complaints, tracks SLAs, escalates delays, and maintains a full audit trail — without manual intervention.
 
-💡 Solution Overview
+<h3>💡 Solution Overview</h3>
 
 SarkarFlow uses Motia’s event-driven workflow engine to manage the entire lifecycle of a government service request.
 
@@ -63,7 +63,7 @@ Decoupled services for maintainability
 
 Production-grade logging and authentication
 
-🔄 Workflow Diagram
+<h3>🔄 Workflow Diagram</h3>
 flowchart TD
     A[Citizen / Client App] -->|POST /complaints| B[API Layer]
     
@@ -90,7 +90,7 @@ flowchart TD
 
     N --> O[Audit Logs Stored]
 
-🛠️ Tech Stack
+<h3>🛠️ Tech Stack</h3>
 
 Backend Framework: Motia
 
@@ -107,7 +107,7 @@ Logging: Custom Logger
 Containerization: Docker
 
 
-🔐 Authentication
+<h3>🔐 Authentication</h3>
 
 SarkarFlow uses API Key authentication to secure endpoints.
 
@@ -117,7 +117,7 @@ x-api-key: SARKARFLOW_SECURE_KEY
 
 Unauthorized requests are automatically rejected.
 
-🚀 Getting Started
+<h3>🚀 Getting Started</h3>
 1️⃣ Clone Repository
 git clone https://github.com/your-username/sarkarflow.git
 cd sarkarflow
@@ -158,9 +158,10 @@ POST /api/complaints
 Headers:
 x-api-key: SARKARFLOW_SECURE_KEY
 Content-Type: application/json
-
-{
-  "issueType": "Electricity",
-  "location": "Jaipur",
-  "priority": "High"
+<p>
+    { </br>
+  "issueType": "Electricity",</br>
+  "location": "Jaipur",</br>
+  "priority": "High"</br>
 }
+</p>
